@@ -10,7 +10,7 @@ function switchLightOn(checkColor) {
   var URI =
     "http://192.168.0.50/api/stlaB2I6VZ8O80Qepc-1xfmLrHgyTFvB9IGupaQz/lights/%blbNo%/state/"
 
-  if (checkColor == 1) {
+  if (checkColor == 1 ) {
     for (let index = 1; index < 7; index++) {
       $.ajax({
         url: URI.replace(`%blbNo%`, index), //uses variable lightURI
