@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- cSS File -->
+
+    <link rel="stylesheet" href="PSC.css">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+    <title>Password Strength Checker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.12.0/d3.min.js"></script>
+
+    <!-- jquery -->
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- //Navigation Bar -->
+
+    <div class="h2 mb-1 bg-transparent text-white" id="menuBar">
+        <button id="changeBtn-1" class="show">Home</button>
+        <button id="changeBtn-2">Application</button>
+        <button id="changeBtn-3">Key Index</button>
+        <button id="changeBtn-4">About</button>
+    </div>
+    <div id="content">
+
+      <!-- Page 1 -->
+
+        <div id="page-1" class="p-3 mb-1 bg-transparent text-white showPage pageClass">
+            <div class="h1">Home</div>
+            <div class="h4">Welcome to Password Strength Checker <br> <br>
+                This application is designed to check the strength of your
+                 password which is very necessary as passwords are there to
+                  protect you personal data.</div>
+            <button  id="homePlay" class="btn btn-primary btn-lg btn-block">Check</button>
+        </div>
+
+        <!-- Page 2 -->
+
+        <div class="h2 mb-1 bg-transparent text-white pageClass" id="page-2" >
+            <div id="title">Enter the password</div>
+            <div id="fnb">
+                <input id="inpFeild" type="text">
+                <button style="width: fit-content;" class="btn btn-primary btn-lg btn-block" id="checkBtn">Go</button>
+            </div>
+        </div>
+
+        <!-- Page 3 -->
+
+        <div class="h2 mb-1 bg-transparent text-white pageClass"  id="page-3" >
+            <div >It is operated through Light 1</div>
+            <div >1.Weak Password = Red</div>
+            <div >2.Moderate Password = Blue</div>
+            <div >3.Strong Password = Green</div>
+            <div >4.Short Password = Yellow</div>
+            <div >5.Space In Password = Aurquoise Light</div>
+        </div>
+
+        <!-- Page 4 -->
+
+        <div class="h2 mb-1 bg-transparent text-white pageClass" id="page-4" >
+            <div >
+                Password strength is a measure of the effectiveness of a password against guessing or brute-force attacks.
+                This application tells you that a password with just alphabets is a Weak password adding some numbers make
+                it Moderately hard to guess but to be completely secure one should add symbols to their password too.
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- Result -->
+
+<div class="h2 mb-1 bg-transparent text-white" id="result"></div>
+</body>
+<script src="PSC.js"></script>
+</html>
