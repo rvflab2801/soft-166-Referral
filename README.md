@@ -8,16 +8,16 @@ Fourth is About, which defines the key feature of the application.
 
 Problems that are fixed now:-
 
-1.GitHub repo is now properly implemented.
-2.Code is reduced from 380 line to 180 lines.
-3.Light's URI's are now stored in one single variable.
-4.Colors instead of being stored in seperate variable are now in a object.
-5.There is a Wireframe of the project.
-6.There is a sitemap of the project.
-7.The website is live so that user can interact with it.
-8.It is tested on multiple browsers.
-9.I've made a youtube video breifly explaining the project.
-10.Code is much more organised and clean.
+1.GitHub repo is now properly implemented.<br />
+2.Code is reduced from 380 line to 180 lines.<br />
+3.Light's URI's are now stored in one single variable.<br />
+4.Colors instead of being stored in seperate variable are now in a object.<br />
+5.There is a Wireframe of the project.<br />
+6.There is a sitemap of the project.<br />
+7.The website is live so that user can interact with it.<br />
+8.It is tested on multiple browsers.<br />
+9.I've made a youtube video breifly explaining the project.<br />
+10.Code is much more organised and clean.<br />
 
 Visit Site - https://passwordstrengthchecker.netlify.app
 
